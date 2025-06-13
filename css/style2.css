@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #1b1b1b;
+  color: #e0e0e0;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 30px 0;
+  font-size: 26px;
+  text-align: center;
+  color: #d0d0d0;
+  background: linear-gradient(to right, #2a2a2a, #1f1f1f);
+  text-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #222;
+  height: 100%;
+  box-shadow: inset -4px 0 8px rgba(0,0,0,0.2);
+}
+
+ul li {
+  border-bottom: 1px solid #333;
+}
+
+ul li a {
+  display: block;
+  padding: 15px;
+  color: #bbb;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  padding-left: 25px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px 30px;
+  color: #ccc;
+  text-align: justify;
+}
+
+body > p {
+  background: #141414;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  padding: 18px;
+  border-top: 1px solid #222;
+}
+
+footer {
+  min-height: 60px;   
+  padding: 20px 20px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #141414;
+  color: #777;
+  font-size: 14px;
+  border-top: 1px solid #222;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+iframe {
+  overflow: hidden;
+}
+
+    body {
+      margin: 0;
+      background: #111;
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+
+    header {
+      height: 100px;
+      background: #1a1a1a;
+    }
+
+    .container {
+      flex: 1;
+      display: flex;
+      min-height: 0; 
+    }
+
+    aside {
+      width: 200px;
+      background: #222;
+      min-height: 0;
+    }
+
+    main {
+      flex-grow: 1;
+      background: #181818;
+      min-height: 0;
+    }
+
+   iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+      overflow: hidden;
+    }
+
+    footer {
+      height: 75px;
+      background: #1a1a1a;
+      padding: 15px 40px;
+      color: #ccc;
+      text-align: center;
+      flex-shrink: 0;
+    }
+ 
+
